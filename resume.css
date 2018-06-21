@@ -1,0 +1,132 @@
+body{
+    background-color: #E0E0E0;
+    padding: 50px;
+    padding-top: 10px;
+    font-family: "Arial";
+    color: #616161;
+
+}
+
+.wrap{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    background-color: white;
+}
+
+.title{
+    font-size: 2.75em;
+    font-family: "Britannic Bold","Century Gothic";
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: azure;
+    position: sticky;
+    top: 5px;
+    background-color: #E0E0E0;
+    color: black;
+    letter-spacing: 5px;
+}
+
+.title:hover{
+    letter-spacing: normal;
+    transition: 0.3s;
+}
+
+.about{
+    font-size: 2em;
+    font-family: "Britannic Bold","Century Gothic";
+    text-decoration-line: underline;
+    margin-left: 20px;
+    color: black;
+
+}
+
+.left{
+    width: 45%;
+    float: left;
+}
+
+.right{
+    width: 45%;
+    float: right;
+}
+
+.fields{
+    font-size: 1.5em;
+    padding-left: 30px;
+    text-decoration-line: underline;
+}
+
+.ans{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.awards{
+    padding-left: 30px;
+}
+
+.about-me{
+    padding-left: 30px;
+    font-size: 1.25em;
+}
+
+img{
+    width: 12em;
+    border: 2px solid gray;
+    border-radius: 2500px;
+    float: right;
+    margin-left: 20px;
+    background-color: lightgray;
+}
+
+.personal-info{
+    float: right;
+    margin-right: 55px;
+}
+
+input{
+    width: 50%;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    border: 2px solid darkgrey;
+    background-color: #EEEEEE;
+}
+
+input:focus{
+    background-color: white;
+    border-color: white;
+}
+
+#suggest{
+    height: 20vh;
+}
+
+.contact-form{
+    padding-left: 30px;
+}
+
+.but{
+    margin-left: 15px;
+    width: 71.25%;
+    height: 50px;
+}
+
+button{
+    background-color: #616161;
+    border: 2px solid #616161;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.15em;
+    font-family: "Century Gothic";
+    letter-spacing: 20px;
+
+}
+
+button:hover{
+    background-color: #212121;
+    font-size: 1.5em;
+    transition: 0.3s;
+    border-color: #212121;
+    font-weight: bolder;
+    letter-spacing: normal;
+}
